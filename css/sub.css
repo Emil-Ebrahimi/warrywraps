@@ -1,0 +1,17 @@
+
+.front {
+height: 35vh !important;
+}
+
+@media screen and (max-width: 992px) {
+    .banner-titel h1 {
+     font-size: 3rem; 
+    }
+    .btn {
+        margin: auto!important;
+    }
+ }
+
+.btn {
+    margin: 0;
+}
