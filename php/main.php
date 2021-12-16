@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
     $lastname = $_POST['lastname'];
     $email = $_POST['emailInfo'];
     $bericht = $_POST['comments']
-    mail($to,$bericht,$firstname,$lastname,$headers);
+    mail($to,$bericht,$firstname);
     echo "gelukt!";
     
      }
